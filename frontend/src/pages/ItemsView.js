@@ -6,7 +6,7 @@ function ItemsView() {
   const [items, setItems] = useState();
   useEffect(() => {
     axios
-      .get("http://localhost:3000/items/")
+      .get("http://localhost:8080/items/")
       .then((res) => {
         setItems(res.data);
       })

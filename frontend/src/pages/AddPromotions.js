@@ -23,7 +23,7 @@ function AddPromotions() {
     console.log("artical : ", artical);
 
     axios
-      .post("http://localhost:3000/promotions/", artical, {
+      .post("http://localhost:8080/promotions/", artical, {
         headers: {
           "Content-Type": "application/json",
         },

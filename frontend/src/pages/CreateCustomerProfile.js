@@ -27,7 +27,7 @@ function CreateCuatomerProfile() {
     console.log("artical : ", artical);
 
     axios
-      .post("http://localhost:3000/customerprofiles", artical, {
+      .post("http://localhost:8080/customerprofiles", artical, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -76,7 +76,7 @@ function CreateCuatomerProfile() {
                 name="user_name"
                 value={firstname}
                 onChange={(e) => setFirstName(e.target.value)}
-                style={{ width: "70%", height: "5%" }}
+                style={{ width: "300px", height: "5%" }}
               />
             </div>
             <br />
@@ -98,7 +98,7 @@ function CreateCuatomerProfile() {
                 name="user_name"
                 value={lastname}
                 onChange={(e) => setLastName(e.target.value)}
-                style={{ width: "70%", height: "5%" }}
+                style={{ width: "300px", height: "5%" }}
               />
             </div>
             <br />
@@ -120,7 +120,7 @@ function CreateCuatomerProfile() {
                 value={username}
                 onChange={(e) => setUserName(e.target.value)}
                 name="user_name"
-                style={{ width: "70%", height: "5%" }}
+                style={{ width: "300px", height: "5%" }}
               />
             </div>
             <br />
@@ -142,7 +142,7 @@ function CreateCuatomerProfile() {
                 name="user_email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                style={{ width: "78%", height: "5%" }}
+                style={{ width: "300px", height: "5%" }}
               />
             </div>
             <br />

@@ -2,11 +2,11 @@ import Koa from "koa";
 import bodyParser from "koa-bodyparser";
 import cors from "@koa/cors";
 
-import postsRouter from "./router/posts.router.js";
-import customerprofileRouter from "./router/customerprofile.router.js";
-import itemsRouter from "./router/items.router.js";
-import promotionsRouter from "./router/promotions.router.js";
-import traderprofileRouter from "./router/traderprofile.router.js";
+import postsRouter from "./router/posts.js";
+import customerprofileRouter from "./router/customerprofile.js";
+import itemsRouter from "./router/items.js";
+import promotionsRouter from "./router/promotions.js";
+import traderprofileRouter from "./router/traderprofile.js";
 
 const app = new Koa();
 app.use(bodyParser());
@@ -37,8 +37,8 @@ app.use((ctx) => {
   ctx.status = 404;
 });
 
-app.listen(3000, () => {
-  console.log("Application running on port 3000");
+app.listen(8080, () => {
+  console.log("Application running sucessfully on port 8080");
 });
 
-// http://localhost:3000/
+

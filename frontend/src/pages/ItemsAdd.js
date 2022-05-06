@@ -23,7 +23,7 @@ function ItemsAdd() {
     console.log("artical : ", artical);
 
     axios
-      .post("http://localhost:3000/items/", artical, {
+      .post("http://localhost:8080/items/", artical, {
         headers: {
           "Content-Type": "application/json",
         },

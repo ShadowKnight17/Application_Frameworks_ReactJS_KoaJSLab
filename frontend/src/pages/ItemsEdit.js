@@ -17,7 +17,7 @@ function ItemsEdit() {
   const [getItembyid, setGetItemByID] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/items/${ID}`)
+      .get(`http://localhost:8080/items/${ID}`)
       .then((res) => {
         setGetItemByID(res.data);
       })
@@ -37,7 +37,7 @@ function ItemsEdit() {
     console.log("artical : ", artical);
 
     axios
-      .put(`http://localhost:3000/items/${ID}`, artical, {
+      .put(`http://localhost:8080/items/${ID}`, artical, {
         headers: {
           "Content-Type": "application/json",
         },

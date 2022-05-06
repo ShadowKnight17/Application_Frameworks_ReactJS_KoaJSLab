@@ -28,7 +28,7 @@ function CreateTraderProfile() {
     console.log("artical : ", artical);
 
     axios
-      .post("http://localhost:3000/traderprofiles", artical, {
+      .post("http://localhost:8080/traderprofiles", artical, {
         headers: {
           "Content-Type": "application/json",
         },

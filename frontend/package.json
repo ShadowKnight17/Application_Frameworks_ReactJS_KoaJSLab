@@ -8,7 +8,7 @@
     "start": "webpack-dev-server .",
     "build": "Webpack ."
   },
-  "author": "",
+  "author": "Suthananth",
   "license": "ISC",
   "dependencies": {
     "@babel/preset-env": "^7.16.11",

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 function ViewCustomers() {
   const [getcustomer, setGetCustomer] = useState([]);
   axios
-    .get("http://localhost:3000/customerprofiles/")
+    .get("http://localhost:8080/customerprofiles/")
     .then((res) => {
       setGetCustomer(res.data);
     })
