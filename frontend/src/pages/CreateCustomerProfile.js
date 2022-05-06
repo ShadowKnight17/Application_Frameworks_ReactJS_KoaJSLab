@@ -55,7 +55,7 @@ function CreateCuatomerProfile() {
         >
           <h1 style={{ margin: "0 0 30px 0", textAlign: "center" }}>
             {" "}
-            Customer Profile Registation Form{" "}
+            Customer Registation{" "}
           </h1>
           <fieldset style={{ marginBottom: "30px", border: "none" }}>
             <div>

@@ -85,7 +85,7 @@ function ItemsAdd() {
                   padding: "10px",
                 }}
               >
-                Description
+                Description:
               </label>
               <input
                 type="text"
@@ -107,7 +107,7 @@ function ItemsAdd() {
                   padding: "10px",
                 }}
               >
-                Qty
+                Quantity:   
               </label>
               <input
                 type="number"
@@ -129,7 +129,7 @@ function ItemsAdd() {
                   padding: "10px",
                 }}
               >
-                Price
+                Price:
               </label>
               <input
                 type="number"
@@ -151,7 +151,7 @@ function ItemsAdd() {
                   padding: "10px",
                 }}
               >
-                Offer Price
+                Offer Price:
               </label>
               <input
                 type="number"

@@ -18,9 +18,10 @@ function Home() {
           >
             <div
               style={{
+                textAlign: "center",
                 border: "1",
                 borderStyle: "solid",
-                borderRadius: 10,
+                borderRadius: 25,
                 borderColor: "black",
                 padding: "20",
                 fontSize: "30",
@@ -28,7 +29,7 @@ function Home() {
                 margin: 20,
               }}
             >
-              Register Customer
+              Customer | Register 
             </div>
           </a>
           <a
@@ -37,9 +38,10 @@ function Home() {
           >
             <div
               style={{
+                textAlign: "center",
                 border: "1",
                 borderStyle: "solid",
-                borderRadius: 10,
+                borderRadius: 25,
                 borderColor: "black",
                 padding: "20",
                 fontSize: "30",
@@ -47,17 +49,10 @@ function Home() {
                 margin: 20,
               }}
             >
-              Register Trader
+             Trader | Register 
             </div>
           </a>
         </div>
-      </div>
-      <div>
-        <Link to="/products">products</Link>
-        <br />
-        <Link to="/ItemsAdd">ItemsAdd</Link>
-        <br />
-        <Link to="/ItemsView">Items View</Link>
       </div>
     </div>
   );
